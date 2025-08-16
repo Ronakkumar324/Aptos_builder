@@ -1,0 +1,16 @@
+[package]
+name = "textbook-nft-marketplace"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xcd719733aed885f7321ab80ddf95479cadeba0ea727d4c45a2eea91f6c03125e"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
